@@ -100,3 +100,75 @@ body {
   font-size: 12px;
   color: #aaa;
 }
+.page-header {
+  text-align: center;
+  padding: 32px 0 16px;
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 12px 0 8px;
+}
+
+.page-header .sub {
+  font-size: 13px;
+  color: #666;
+}
+
+.form-section {
+  margin-bottom: 28px;
+}
+
+.q-label {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.radio-group, .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.radio-card, .checkbox-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #e3e5ea;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+.radio-card input, .checkbox-card input {
+  width: 18px;
+  height: 18px;
+  accent-color: #4a6cf7;
+  flex-shrink: 0;
+}
+
+.radio-card:has(input:checked),
+.checkbox-card:has(input:checked) {
+  border-color: #4a6cf7;
+  background: #eef2ff;
+}
+
+.error-msg {
+  color: #e0433d;
+  font-size: 13px;
+  text-align: center;
+  min-height: 18px;
+  margin-bottom: 8px;
+}
+
+.btn-submit {
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
