@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1分間AI収益診断 | MONEY AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <header class="page-header">
+    <div class="logo">MONEY AI</div>
+    <h1 class="page-title">1分間AI収益診断</h1>
+    <p class="sub">全部で8つの質問です。正直に答えてください。</p>
+  </header>
+
+  <form id="diagnosisForm">
+
+    <div class="form-section">
+      <label class="q-label">Q1. 年齢を教えてください</label>
+      <div class="radio-group" data-name="age">
+        <label class="radio-card"><input type="radio" name="age" value="18-19">18〜19歳</label>
+        <label class="radio-card"><input type="radio" name="age" value="20-22">20〜22歳</label>
+        <label class="radio-card"><input type="radio" name="age" value="23-25">23〜25歳</label>
+        <label class="radio-card"><input type="radio" name="age" value="26-30">26〜30歳</label>
+        <label class="radio-card"><input type="radio" name="age" value="31plus">31歳以上</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="q-label">Q2. 現在の状況は？</label>
+      <div class="radio-group" data-name="status">
+        <label class="radio-card"><input type="radio" name="status" value="student">大学生・専門学生</label>
+        <label class="radio-card"><input type="radio" name="status" value="employee">会社員</label>
+        <label class="radio-card"><input type="radio" name="status" value="parttime">フリーター・アルバイト</label>
+        <label class="radio-card"><input type="radio" name="status" value="housewife">主婦・主夫</label>
+        <label class="radio-card"><input type="radio" name="status" value="jobseeking">求職中</label>
+        <label class="radio-card"><input type="radio" name="status" value="other">その他</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="q-label">Q3. 1週間で使える時間は？</label>
+      <div class="radio-group" data-name="time">
+        <label class="radio-card"><input type="radio" name="time" value="under3">3時間未満</label>
+        <label class="radio-card"><input type="radio" name="time" value="3to7">3〜7時間</label>
+        <label class="radio-card"><input type="radio" name="time" value="7to15">7〜15時間</label>
+        <label class="radio-card"><input type="radio" name="time" value="over15">15時間以上</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="q-label">Q4. かけられる初期費用は？</label>
+      <div class="radio-group" data-name="budget">
+        <label class="radio-card"><input type="radio" name="budget" value="0">0円(完全無料で始めたい)</label>
+        <label class="radio-card"><input type="radio" name="budget" value="5000">〜5,000円</label>
+        <label class="radio-card"><input type="radio" name="budget" value="30000">〜30,000円</label>
+        <label class="radio-card"><input type="radio" name="budget" value="30000plus">30,000円以上</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="q-label">Q5. 現在お持ちのスキル(複数選択可)</label>
+      <div class="checkbox-group" data-name="skills">
+        <label class="checkbox-card"><input type="checkbox" name="skills" value="writing">ライティング</label>
+        <label class="checkbox-card"><input type="checkbox" name="skills" value="design">デザイン</label>
+        <label class="checkbox-card"><input type="checkbox" name="skills" value="sns">SNS運用</label>
+        <label class="checkbox-card"><input type="checkbox" name="skills" value="video">動画編集</label>
+        <label class="checkbox-card"><input type="checkbox" name="skills" value="programming">プログラミング</label>
+        <label class="checkbox-card"><input type="checkbox" name="skills" value="none">特になし</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="q-label">Q6. 興味のある分野(複数選択可)</label>
+      <div class="checkbox-group" data-name="interests">
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="sns">AI×SNS</label>
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="writing">AI×ライティング</label>
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="web">AI×Web制作</label>
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="document">AI×資料作成</label>
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="video">AI×動画</label>
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="design">AI×デザイン</label>
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="content">デジタルコンテンツ</label>
+        <label class="checkbox-card"><input type="checkbox" name="interests" value="service">オンラインサービス</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="q-label">Q7. 目標月収は？</label>
+      <div class="radio-group" data-name="goalIncome">
+        <label class="radio-card"><input type="radio" name="goalIncome" value="10000">〜1万円</label>
+        <label class="radio-card"><input type="radio" name="goalIncome" value="30000">1〜3万円</label>
+        <label class="radio-card"><input type="radio" name="goalIncome" value="100000">3〜10万円</label>
+        <label class="radio-card"><input type="radio" name="goalIncome" value="100000plus">10万円以上</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="q-label">Q8. 希望する働き方は？</label>
+      <div class="radio-group" data-name="workStyle">
+        <label class="radio-card"><input type="radio" name="workStyle" value="gap">スキマ時間にコツコツ</label>
+        <label class="radio-card"><input type="radio" name="workStyle" value="daily">毎日決まった時間に</label>
+        <label class="radio-card"><input type="radio" name="workStyle" value="intensive">短期集中で一気に</label>
+        <label class="radio-card"><input type="radio" name="workStyle" value="longterm">長期的にじっくり</label>
+      </div>
+    </div>
+
+    <p id="errorMsg" class="error-msg"></p>
+
+    <button type="submit" class="btn-primary btn-submit">診断結果を見る</button>
+
+  </form>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
